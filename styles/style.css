@@ -12,7 +12,6 @@
   font-weight: 700;
   padding: 15px 35px;
 }
-
 a{
   text-decoration: none;
   color: white;
@@ -34,7 +33,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
-/* nav styles */
+/* header and nav styles starts*/
 header{
   background: #FCEEF1;
 }
@@ -61,11 +60,12 @@ nav a{
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
-   text-decoration: none;
+  text-decoration: none;
   color: #474747;
 }
+/* header and nav styles ends*/
 
-/* banner related styles */
+/* banner related styles starts */
 .banner{
   padding: 60px 250px 0 200px;
   display: flex;
@@ -87,10 +87,11 @@ nav a{
   max-width: 600px;
   font-weight: 400;
 }
-
 .banner-flower{
   max-width: 400px;
 }
+/* banner related styles ends*/
+
 
 /* Our Featured Flowers section starts */
 .flower{
@@ -111,7 +112,6 @@ nav a{
   padding: 96px 50px 0 50px;
   max-width: 300px;
 }
-
 .flower-box2 img{
 border-radius: 300px 300px 0px 0px;
 background: #D9EFF1;
@@ -129,9 +129,8 @@ max-width: 300px;
   justify-content: space-around;
   margin-bottom: 50px;
 }
-
 .flower-section-btn a{
-  color: #272727;
+color: #272727;
 text-align: center;
 font-family: Lato;
 font-size: 24px;
@@ -139,6 +138,8 @@ font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 }
+/* Our Featured Flowers section ends */
+
 
 /* features section starts */
 .features {
@@ -162,6 +163,9 @@ text-decoration-line: underline;
   font-weight: 700;
   line-height: 35px;
 }
+/* features section ends */
+
+
 /* about us starts */
 .about-us{
   margin-top: 80px;
@@ -199,8 +203,10 @@ text-decoration-line: underline;
   line-height: 30px;
   padding: 20px 0;
 }
-/* sales section starts */
+/* about us ends */
 
+
+/* sales section starts */
 .sale-section{
   width: 100%;
   background-color: #F2DEE7;
@@ -218,25 +224,25 @@ text-decoration-line: underline;
 }
 .sale-content h2{
   color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
 }
 .sale-content p{
   padding: 20px 0;
   color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 .sale-content .off{
   color: #E55473;
 }
+/* sales section ends */
 
 /* instagram style starts */
-
 .socialmedia{
   max-width: 1140px;
   margin: 0 auto;
@@ -246,11 +252,12 @@ line-height: 30px;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .instagram-img img{
   max-width: 300px;
   margin-right: 30px;
 }
+/* instagram style ends */
+
 /* latest deals starts */
 .latest-deals{
   background-image: url(../img/Rectangle\ 9.png);
@@ -260,7 +267,6 @@ line-height: 30px;
   padding:  100px;
   border-radius: 8px;
 }
-
 .email-form{
   text-align: center;
 }
@@ -271,6 +277,9 @@ line-height: 30px;
   color: #272727;
   width: 500px;
 }
+/* latest deals ends */
+
+
 /* footer section starts */
 footer{
 background: #111010;
