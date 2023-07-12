@@ -59,18 +59,17 @@ nav li{
 nav a{
   font-family: Lato;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 30px;
    text-decoration: none;
   color: #474747;
 }
 
-/* header related styles */
+/* banner related styles */
 .banner{
   padding: 60px 250px 0 200px;
   display: flex;
   justify-content: space-between;
-  background: #FCEEF1;
 }
 .banner-text h3{
   color: #272727;
@@ -98,7 +97,6 @@ nav a{
   max-width: 1140px;
   margin: 0 auto;
 }
-
 .flower-box{
   display: flex;
   justify-content: space-around;
@@ -107,7 +105,6 @@ nav a{
 .flower-link{
   display: block;
 }
-
 .flower-box1 img{
   border-radius: 300px 300px 0px 0px;
   background: #F2DEE7;
@@ -165,7 +162,43 @@ text-decoration-line: underline;
   font-weight: 700;
   line-height: 35px;
 }
-
+/* about us starts */
+.about-us{
+  margin-top: 80px;
+}
+.about-container{
+  display: flex;
+  align-items: center;
+  padding: 0 220px;
+}
+.about-container img{
+  max-width: 700px;
+}
+.about-us-content{
+  padding: 0 30px;
+}
+.about-us-content h3{
+  color: #E55473;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.about-us-content h2{
+  color: #E55473;
+  font-family: Lato;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.about-us-content p {
+  color: rgba(39, 39, 39, 0.60);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px 0;
+}
 /* sales section starts */
 
 .sale-section{
